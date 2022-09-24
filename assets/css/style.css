@@ -94,7 +94,8 @@ a {
     #title
     {
         width: 100%;
-        text-align: center;;
+        text-align: center;
+        margin-bottom: 0;
     }
     .nav_layout {
         width: 100%;
