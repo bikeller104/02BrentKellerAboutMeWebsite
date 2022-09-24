@@ -1,30 +1,32 @@
-header {
+.header_layout {
     display: flex;
     flex-wrap:  wrap;
     flex-direction: row;
     justify-content:space-between;
-
-
 }
 
-nav {
+.nav_layout {
         display: flex;
         width:50%;
 }
 
-li {
+/* target the list items in the navlist */
+.nav_list > li {
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
-    /* align-self: flex-end; */
 }
 
-h1 {
+#title {
     justify-content: flex-end;
     align-content:center;
+    margin-left:5%;
+    text-align: right;
+    white-space: nowrap;
 }
 
-ul {
+/*class to target the header nav list */
+.nav_list {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -32,4 +34,21 @@ ul {
 
 a {
     white-space: nowrap;
+}
+
+@media screen and (max-width: 600px)
+{
+    .header_layout {
+        flex-direction: column;
+        align-content: center;
+    }
+    #title
+    {
+        width: 100%;
+        text-align: center;;
+    }
+    .nav_layout {
+        width: 100%;
+    }
+
 }
