@@ -53,8 +53,9 @@ direct child of a navlist */
 }
 
 a {
-
     white-space: nowrap;
+    padding: 0 .4rem;
+    border-bottom: .2rem solid var(--box_text_color);
 }
 
 .header_img_layout > img {
