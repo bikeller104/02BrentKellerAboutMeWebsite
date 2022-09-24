@@ -1,7 +1,7 @@
 :root {
     --box_background_color: #171376;
     --box_text_color: #a8eeff;
-    --header_background: rgb(74, 93, 93);
+    --header_background: rgb(74, 70, 89);
 }
 
 
@@ -55,6 +55,14 @@ direct child of a navlist */
 a {
 
     white-space: nowrap;
+}
+
+.header_img_layout > img {
+    width:100%;
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/length*/
+    /* the vw property is a percentage of the width so 10 vw is 10% of the width*/
+    height: 20vw;
+    object-fit:cover;
 }
 
 
