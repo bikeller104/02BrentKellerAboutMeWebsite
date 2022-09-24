@@ -1,3 +1,11 @@
+:root {
+    --box_background_color: #171376;
+    --box_text_color: #a8eeff;
+    --header_background: rgb(74, 93, 93);
+}
+
+
+
 .header_layout {
     display: flex;
     flex-wrap:  wrap;
@@ -10,17 +18,29 @@
         width:50%;
 }
 
-/* target the list items in the navlist */
+/* target the list items that are the 
+direct child of a navlist */
 .nav_list > li {
     display:flex;
+    flex: 1 1 3%;
     flex-direction: row-reverse;
+    /*align-items: center moves the items 
+    vertically and places them where they are
+    centered with the title*/
     align-items: center;
+    /* align-content: center; */
+    margin: 1%;
+    /*this justify-content: center moves the 
+    items contained by the container so they
+    are centered inside of teh container*/
+    justify-content: center;
 }
 
 #title {
     justify-content: flex-end;
     align-content:center;
-    margin-left:5%;
+    padding: 1%;
+    padding-left:5%;
     text-align: right;
     white-space: nowrap;
 }
@@ -33,8 +53,29 @@
 }
 
 a {
+
     white-space: nowrap;
 }
+
+
+/* start the styling of the header elements*/
+
+.header_style {
+    background-color: var(--header_background);
+}
+
+.title_style {
+    background-color: var(--box_background_color);
+    color: var(--box_text_color);
+}
+
+.nav_list_styling > li{
+    /*the list items wil not have a background*/
+    /* background-color: var(--box_background_color); */
+    color: var(--box_text_color);
+}
+
+
 
 @media screen and (max-width: 600px)
 {
