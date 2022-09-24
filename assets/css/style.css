@@ -45,6 +45,22 @@ direct child of a navlist */
     white-space: nowrap;
 }
 
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer:nth-child(2)
+{
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+}
+
+
 /*class to target the header nav list */
 .nav_list {
     display: flex;
