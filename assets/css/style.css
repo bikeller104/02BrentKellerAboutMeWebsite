@@ -125,6 +125,12 @@ a {
 
 nav a {
     border-bottom: var(--border_width) solid var(--box_text_color);
+    text-decoration: none;;
+}
+
+nav a:visited {
+    color: var(--box_text_color);
+    text-decoration: none;
 }
 
 .contact p {
