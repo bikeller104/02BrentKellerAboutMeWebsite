@@ -111,13 +111,33 @@ a {
     object-fit:cover;
 }
 
+.work_showcase {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 50%;
+}
+
+.work_showcase:first-child {
+    width: 100%;
+}
+
 .card {
-    background-image: url(../images/Stock\ Image\ 1.avif);
+    margin: 5px;
+    object-fit: cover;
+}
+
+.card p {
+    position: absolute;
+    padding: 10px;
+    background-color: var(--box_background_color);
+    color: var(--box_text_color);
 }
 
 .card img {
     height: 20vw;
     object-fit:cover;
+    height: 20vw;
 }
 
 
