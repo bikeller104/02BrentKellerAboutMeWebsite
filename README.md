@@ -13,7 +13,7 @@ The contact me section contains social links such as github and my contact infor
 ## Visuals
 
 
-![Horiseon Webpage](./assets/images/Final%20Screenshot.png)
+![Brent Keller Portfolio](./assets/images/Final%20Screenshot.png)
 
 ## Installation
 Go to <br/> https://bikeller104.github.io/02HTMLCSSAboutMeWebsite/  <br/>to access the webpage
